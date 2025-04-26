@@ -84,7 +84,7 @@ namespace FarmerPortraits
                 int frame = Config.FacingFront ? 0 : 6;
                 if (portraitTexture != null && Config.UseCustomPortrait)
                 {
-                    b.Draw(portraitTexture, new Rectangle(portraitBoxX + 20, portraitBoxY + 24, 256, 256), null, Color.White, 0f, Vector2.Zero, SpriteEffects.None, 1f);
+                    b.Draw(portraitTexture, new Rectangle(portraitBoxX + 20, portraitBoxY + 20, 256, 256), null, Color.White, 0f, Vector2.Zero, SpriteEffects.None, 0.88f);
                 }
                 else
                 {
